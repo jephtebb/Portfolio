@@ -1,54 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel = "stylesheet" href ="./style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
 </head>
 <body>
-    <header>
-        <div>
+    <header class ="header-class">
             <h1>Jephte Borno</h1>
             <nav>
-                <ul>
-                    <li>About Me</li>
-                    <li>Work</li>
-                    <li>Contact Me </li>
-                    <li>Resume</li>
+                <ul class = "flex-list">
+                    <li>
+                        <a href= "#aboutme">About Me</a>
+                    </li>
+                    <li>
+                        <a href= "#work" >Work</a>
+                    </li>
+                    <li>
+                        <a href ="#contactme">Contact Me</a> 
+                    </li>
+
+                    <li>
+                        <a href = "#resume" >Resume</a>
+                    </li>
                 </ul>
             </nav>
-        </div>
     </header>
-    <section>
-        <h2> About Me</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Magni magnam sed beatae eaque repellat deserunt est libero. 
-           Eaque voluptate atque autem fuga. Sunt voluptas dolore in repellat,
-           dolorum nobis. Repellat.
-        </p>
+    <section class = "hero-image">
+        <h3>My New Journey</h3>
     </section>
-    <section>
-        <h2>Work</h2>
-        <div>
-
+    <section id ="aboutme" class ="flex-about-me flex-sections">
+        
+            <h2 class = "header-2"> About Me</h2>
+        
+        <div class = "section-description">
+            <p>My name is Jephte Borno. I was born and raised in small town in Haiti, Martissant,
+               where I spent all my childhood and adolescents. I left Haiti for the United States in 2009.
+               When I came to the U.S, I had the opportunity to further my education,
+               which I do not think would have been possible in my country. 
+               I graduated with double major in Mathematics and Statistics and a minor in actuarial
+               science from University of florida in 2015. 
+               Since then I have been teaching math at Forest Hill High School.
+             </p>
+             <p>
+               Ever since I was a little boy, I was passionate about two things: Math and Soccer.
+               I grew up watching and playing soccer with my barefeet. Not too long ago ago, I realised that my passion
+               for programming has gradually incresed since the first time I was introduced to it back in 2014, 
+               Where I had to take C++ as an elective for the Statistics program. To be honest, 
+               I struggled a lot in that class because that was my first time ever taken a programming class. 
+               I did not even know all these cool stuff existed.
+               That passion drove me to register in the UCF bootcamp to learn more about programming.
+             </p>
         </div>
-
     </section>
-    <section>
-        <h2>Contact Me</h2>
-        <div>
-            <ul>
-                <li>Telephone</li>
-                <li>Email</li>
-                <li>Github</li>
-                <li>Twitter </li>
-                <li>Spotify</li>
-                <li>LinkedIn</li>
+    <section id = "work" class = "flex-work flex-sections">
+        <h2 class = "header-2">Work</h2>
+        <div class="work-grid-container section-description">
+            <div class="grid-item item1">
+                <a href = " https://jephtebb.github.io/run-buddy/">Run Buddy</a>
+                <p>HTML/CSS</p>
+            </div>
+            <div class="grid-item item2">
+                <a href = "./images/led-wall.jpg">LED Wall</a>
+                <p>Node</p>
+            </div>
+            <div class="grid-item item3">
+                <a href = "./images/surf-report.jpg">Surf Report</a>
+                <p>MERN Stack</p>
+            </div>  
+            <div class="grid-item item4">
+                <a href = "./images/calculator.jpg">Calculator</a>
+                <p>React/Javascript/CSS</p>
+            </div>
+            <div class="grid-item item5">
+                <a href = "#portfolio">My Portfolio</a>
+                <p>HTML/CSS</p>
+            </div>
+          </div>
+    </section>
+
+    <footer id = "contactme" class = "flex-contact flex-sections">
+        <h2 class = "header-2">Contact Me</h2>
+        <nav class = "section-description">
+            <ul class = "contact-info flex-list">
+                <li>
+                    <a href="#telephone">561-856-6140</a>
+                <li>
+                    <a href="mailto:jephteborno@yahoo.com">jephteborno@yahoo.com</a>
+                </li>
+                <li>
+                    <a href= "#github">Github</a>
+                </li>
+                <li>
+                    <a href= "#twitter">Twitter</a>
+                </li>
+                <li>
+                    <a href= "#spotify">Spotify</a>
+                </li>
             </ul>
-        </div>
-    </section>
-    <footer>
-
+        </nav>
     </footer>
 </body>
 </html>

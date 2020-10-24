@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: lightgrey;
+    
+  }
+  .header-class{
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url("./images/header-image.jpg");
+  }
+.hero-image {
+    display: flex;
+    background-image: url("./images/hero-portfolio-img.jpg");
+    width: 100%;
+    height: 250px;
+    align-items: flex-end;
+}
+.flex-sections {
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+    padding-bottom: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+.hero-image h3 {
+    margin-left: auto;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    color: #FFF;
+    border: 0.5px;
+    background-color: black;
+   
+}
+.flex-list{
+    display:flex;
+    list-style-type: none;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(100, 130, 160);
+}
+.flex-list li{
+    margin-right: 10px;
+}
+.work-grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    justify-content: space-between;
+}
+  .work-grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: bottom;
+    padding: 20px 0px;
+    font-size: 30px;
+  }
+  .item1 {
+    background-image: url("./images/run-buddy.jpg");
+    grid-area: 1 / 1 / 3 / 3;
+  }
+  .item2 {
+      background-image: url("./images/led-wall.jpg");
+
+  }
+  .item3 {
+      background-image: url("./images/surf-report.jpg");
+    
+  }
+  .item4 {
+      background-image: url("./images/calculator.jpg");
+      
+  }
+  .item5 {
+      background-image: url("./images/my-portfolio.png");
+     
+  }
+  .grid-item {
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid rgb(100, 130, 160);
+    background-position: center;
+}
+  .work-grid-container .grid-item p {
+      font-size: 12px;
+    
+  }
+    .contact-info li a {
+        text-decoration: none;
+        color: dodgerblue;
+        border-bottom: 2px solid rgb(100, 130, 160);
+    }
+  .header-2 {
+      border-right: 3px solid rgb(100, 130, 160);
+      margin-right: 30px;
+      padding-right: 30px;
+      flex-wrap: wrap;
+      flex: 2;
+      margin-left: auto;
+      text-align: right;
+  }
+  .section-description {
+      flex: 5;
+  }
+  .grid-item a{
+      text-decoration: none;
+  }
