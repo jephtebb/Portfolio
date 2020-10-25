@@ -8,7 +8,7 @@ This website is about me and my work as a software developer
 *CSS
 
 ## Website
-https://jephtebb.github.io/portfolio/
+https://jephtebb.github.io/Portfolio/
 
 ## Contribution
 Made with ❤️ by [Jephte Borno]
