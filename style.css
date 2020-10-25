@@ -1,4 +1,4 @@
-* {
+html,body{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
@@ -139,7 +139,9 @@
     .section-description .grid-item {
         width: 100%;
     }
-    
+    .flex-work {
+        width: 100%;
+    }
   
 
 }
@@ -168,10 +170,8 @@
       text-decoration: underline;
       color: rgb(100, 130, 160);
   }
-  .header-class,
-  .hero-image {
-      width: 100%;
-  }
+
+  
   .hero-image h3 {
       justify-content: center;
       align-items: center;
@@ -182,14 +182,24 @@
 @media screen and (max-width: 575px){
     body {
         font-size: 25px;
+        width: 80vw;
         background-color: #555;
     }
     .flex-contact {
-        flex: 100%;
+    
     }
-    .contact-info a {
-        flex: 100%;
-        display: block;
+    .contact-info{
+        display:block;
+    }
+
+    .section-description p{
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        overflow:hidden;
+        width: 80vw;
+
     }
 
 }
