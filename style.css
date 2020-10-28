@@ -19,7 +19,6 @@
     display: flex;
     background-image: url("./images/hero-portfolio-img.jpg");
     width: 100%;
-    height: 250px;
     align-items: flex-end;
 }
 .me {
@@ -139,6 +138,11 @@
     .grid-item{
         margin:0px;
     }
+    .section-description{
+        padding-left:5px;
+        padding-right:5px;
+
+    }
     p {
         font-size: 1.4rem;
         text-align: center;
@@ -180,7 +184,7 @@
   .section-description .contact-info a {
       width: 100%;
       display: block;
-      font-size: 30px;
+      font-size: 24px;
   }
   .flex-sections {
       display: block;
@@ -191,12 +195,14 @@
       text-align: center;
       text-decoration: underline;
       color: rgb(100, 130, 160);
+      margin-right: 0;
   }
 
   
   .hero-image h3 {
       justify-content: center;
       align-items: center;
+      text-align:center;
 
   }
   .section-description p{
@@ -205,7 +211,7 @@
     justify-content: center;
     flex-wrap: wrap;
     overflow:hidden;
-    width: 80vw;
+    width: 100vw;
 
 }
 
