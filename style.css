@@ -138,11 +138,7 @@
     .grid-item{
         margin:0px;
     }
-    .section-description{
-        padding-left:5px;
-        padding-right:5px;
-
-    }
+ 
     p {
         font-size: 1.4rem;
         text-align: center;
@@ -211,7 +207,6 @@
     justify-content: center;
     flex-wrap: wrap;
     overflow:hidden;
-    width: 100vw;
 
 }
 
